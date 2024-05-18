@@ -19,6 +19,13 @@ By integrating data on various health parameters, including heart rate, blood ox
 - Fitness assessment score derived from health vitals.
 - Integration of IoT hardware for real-time health monitoring.
 
+## Architecture
+The IoT hardware collects real-time health vitals, which are processed by the ML models. The ML models, developed in Python, analyze these vitals to compute a fitness score. This score and the vitals data are then displayed in the Android application, providing users with a comprehensive view of their health.
+
+## How to Use
+1. **Setup IoT Hardware**: Connect the sensors (MAX30100, DS18B20, MPU6050) to the Arduino UNO.
+2. **Run ML Models**: Use the provided Python scripts to run the ML models and compute the fitness score.
+3. **Deploy Android App**: Open the project in Android Studio, integrate with Firebase, and deploy the app to your device.
 
 ## Technologies Used
 ### Machine Learning
@@ -37,3 +44,16 @@ Developed using Python, the following ML models were utilized:
 - Android Studio (Java)
 - Firebase (Backend as a Service)
 - ML Models integrated via pickling
+
+## Getting Started
+### Prerequisites
+- Python 3.x
+- Arduino IDE
+- Android Studio
+- Firebase Account
+
+### Installation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/health-monitoring-app.git
+   cd health-monitoring-app
