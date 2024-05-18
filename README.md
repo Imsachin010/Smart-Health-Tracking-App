@@ -13,7 +13,7 @@ By integrating data on various health parameters, including heart rate, blood ox
 - Integration of IoT hardware for real-time health monitoring.
 - 
 ## App Interface
-<img src="(https://github.com/Imsachin010/Smart-Health-Tracking-App/assets/97721592/078b661f-6591-4f4b-b2be-bf319ac0780a)" alt="App Interface" width="300" height="500"/>
+<img src="https://github.com/Imsachin010/Smart-Health-Tracking-App/assets/97721592/078b661f-6591-4f4b-b2be-bf319ac0780a" alt="App Interface" width="300" height="500"/>
 
 ## Architecture
 The IoT hardware collects real-time health vitals, which are processed by the ML models. The ML models, developed in Python, analyze these vitals to compute a fitness score. This score and the vitals data are then displayed in the Android application, providing users with a comprehensive view of their health.
