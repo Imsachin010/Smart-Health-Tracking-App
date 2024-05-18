@@ -1,13 +1,6 @@
 # Smart-Health-Tracking-App
 ## Introduction
 The convergence of IoT sensors and advanced health monitoring technologies, such as Photoplethysmography (PPG), has ushered in a new era of remote health assessment and fitness tracking. PPG-based IoT sensors provide real-time insights into various health metrics, including heart rate, blood oxygen levels, sleep patterns, and stress levels. 
-
-### Health Monitoring and Fitness Assessment App
-
-Health monitoring enables proactive management of one’s well-being and enhances overall health outcomes. Despite the advent of various technologies, many platforms fail to:
-1. Monitor all major health vitals in one unified application.
-2. Provide a holistic health score derived from these non-invasive vitals for fitness measurement.
-
 This project presents a novel solution featuring:
 1. An IoT-ML enabled platform for self-monitoring of important health vitals.
 2. A fitness assessment score derived through a machine learning (ML) algorithm using the health vitals of a person.
@@ -18,6 +11,9 @@ By integrating data on various health parameters, including heart rate, blood ox
 - Unified monitoring of major health vitals.
 - Fitness assessment score derived from health vitals.
 - Integration of IoT hardware for real-time health monitoring.
+- 
+## App Interface
+<img src="(https://github.com/Imsachin010/Smart-Health-Tracking-App/assets/97721592/078b661f-6591-4f4b-b2be-bf319ac0780a)" alt="App Interface" width="300" height="500"/>
 
 ## Architecture
 The IoT hardware collects real-time health vitals, which are processed by the ML models. The ML models, developed in Python, analyze these vitals to compute a fitness score. This score and the vitals data are then displayed in the Android application, providing users with a comprehensive view of their health.
