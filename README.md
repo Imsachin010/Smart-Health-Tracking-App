@@ -18,3 +18,22 @@ By integrating data on various health parameters, including heart rate, blood ox
 - Unified monitoring of major health vitals.
 - Fitness assessment score derived from health vitals.
 - Integration of IoT hardware for real-time health monitoring.
+
+
+## Technologies Used
+### Machine Learning
+Developed using Python, the following ML models were utilized:
+- Linear Regression
+- DecisionTreeRegressor
+- XGBoost Regressor
+
+### IoT Hardware
+- MAX30100 (Pulse Oximeter and Heart-Rate Sensor)
+- DS18B20 (Temperature Sensor)
+- MPU6050 (Gyroscope and Accelerometer)
+- Arduino UNO
+
+### Mobile Application
+- Android Studio (Java)
+- Firebase (Backend as a Service)
+- ML Models integrated via pickling
